@@ -1,0 +1,92 @@
+2024-04-30 14:13:59.761  INFO 1880 --- [main] c.s.app.ShowDetailsDriverApplication     : Starting ShowDetailsDriverApplication using Java 17.0.7 on DESKTOP-J72LTS0 with PID 1880 (C:\Users\DELL\OneDrive\Desktop\Sapient\AddressMappingMicroservice\Add-REST-APIs-To-Address-Microservice\target\classes started by DELL in C:\Users\DELL\OneDrive\Desktop\Sapient\AddressMappingMicroservice\Add-REST-APIs-To-Address-Microservice)
+2024-04-30 14:13:59.765  INFO 1880 --- [main] c.s.app.ShowDetailsDriverApplication     : No active profile set, falling back to default profiles: default
+2024-04-30 14:14:00.630  INFO 1880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30 14:14:00.818  INFO 1880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interfaces.
+2024-04-30 14:14:02.438  INFO 1880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-04-30 14:14:02.462  INFO 1880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30 14:14:02.463  INFO 1880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-04-30 14:14:02.616  INFO 1880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30 14:14:02.617  INFO 1880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2745 ms
+2024-04-30 14:14:03.187  INFO 1880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30 14:14:03.297  INFO 1880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2024-04-30 14:14:03.551  INFO 1880 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-30 14:14:03.723  INFO 1880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30 14:14:04.268  INFO 1880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30 14:14:04.344  INFO 1880 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-30 14:14:05.507  INFO 1880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30 14:14:05.522  INFO 1880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 14:14:06.011  WARN 1880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 14:14:06.183  INFO 1880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-30 14:14:06.508  WARN 1880 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2024-04-30 14:14:06.510  INFO 1880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-04-30 14:14:06.511  INFO 1880 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 14:14:06.515  INFO 1880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-30 14:14:06.532  INFO 1880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-30 14:14:06.537  INFO 1880 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-30 14:14:06.561  INFO 1880 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-30 14:14:06.595 ERROR 1880 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2024-04-30 14:14:19.535  INFO 2896 --- [main] c.s.app.ShowDetailsDriverApplication     : Starting ShowDetailsDriverApplication using Java 17.0.7 on DESKTOP-J72LTS0 with PID 2896 (C:\Users\DELL\OneDrive\Desktop\Sapient\AddressMappingMicroservice\Add-REST-APIs-To-Address-Microservice\target\classes started by DELL in C:\Users\DELL\OneDrive\Desktop\Sapient\AddressMappingMicroservice\Add-REST-APIs-To-Address-Microservice)
+2024-04-30 14:14:19.541  INFO 2896 --- [main] c.s.app.ShowDetailsDriverApplication     : No active profile set, falling back to default profiles: default
+2024-04-30 14:14:20.301  INFO 2896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30 14:14:20.397  INFO 2896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2024-04-30 14:14:21.555  INFO 2896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-04-30 14:14:21.573  INFO 2896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30 14:14:21.574  INFO 2896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-04-30 14:14:21.694  INFO 2896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30 14:14:21.695  INFO 2896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2056 ms
+2024-04-30 14:14:22.019  INFO 2896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30 14:14:22.146  INFO 2896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2024-04-30 14:14:22.366  INFO 2896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-30 14:14:22.530  INFO 2896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30 14:14:23.005  INFO 2896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30 14:14:23.042  INFO 2896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-30 14:14:24.277  INFO 2896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30 14:14:24.293  INFO 2896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 14:14:24.748  WARN 2896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 14:14:24.919  INFO 2896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-30 14:14:25.331  INFO 2896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-04-30 14:14:25.349  INFO 2896 --- [main] c.s.app.ShowDetailsDriverApplication     : Started ShowDetailsDriverApplication in 6.495 seconds (JVM running for 7.195)
+2024-04-30 14:14:53.213  INFO 2896 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30 14:14:53.214  INFO 2896 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30 14:14:53.218  INFO 2896 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-30 14:14:53.262  INFO 2896 --- [http-nio-8082-exec-2] com.sapient.service.ShowDetailsService   : Inside getById 1
+2024-04-30 14:16:32.880  INFO 20456 --- [main] c.s.app.ShowDetailsDriverApplication     : Starting ShowDetailsDriverApplication using Java 17.0.7 on DESKTOP-J72LTS0 with PID 20456 (C:\Users\DELL\OneDrive\Desktop\Sapient\AddressMappingMicroservice\Add-REST-APIs-To-Address-Microservice\target\classes started by DELL in C:\Users\DELL\OneDrive\Desktop\Sapient\AddressMappingMicroservice\Add-REST-APIs-To-Address-Microservice)
+2024-04-30 14:16:32.885  INFO 20456 --- [main] c.s.app.ShowDetailsDriverApplication     : No active profile set, falling back to default profiles: default
+2024-04-30 14:16:33.667  INFO 20456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30 14:16:33.776  INFO 20456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2024-04-30 14:16:35.038  INFO 20456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-04-30 14:16:35.053  INFO 20456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-30 14:16:35.055  INFO 20456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-04-30 14:16:35.196  INFO 20456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-30 14:16:35.197  INFO 20456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2203 ms
+2024-04-30 14:16:35.545  INFO 20456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30 14:16:35.629  INFO 20456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2024-04-30 14:16:35.828  INFO 20456 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-30 14:16:35.985  INFO 20456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-30 14:16:36.452  INFO 20456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-30 14:16:36.490  INFO 20456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-30 14:16:38.158  INFO 20456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-30 14:16:38.175  INFO 20456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 14:16:38.772  WARN 20456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 14:16:38.940  INFO 20456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-30 14:16:39.360  INFO 20456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-04-30 14:16:39.374  INFO 20456 --- [main] c.s.app.ShowDetailsDriverApplication     : Started ShowDetailsDriverApplication in 7.166 seconds (JVM running for 7.857)
+2024-04-30 14:16:55.482  INFO 20456 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30 14:16:55.483  INFO 20456 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30 14:16:55.486  INFO 20456 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-30 14:16:55.529  INFO 20456 --- [http-nio-8082-exec-1] com.sapient.service.ShowDetailsService   : Inside getById 1
